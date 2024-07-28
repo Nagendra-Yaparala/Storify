@@ -1,6 +1,6 @@
 import React from 'react';
 
-const EditItem = () => {
+const EditItem = ({title,description}) => {
   return (
     <div className='flex flex-col gap-5'>
         <input type="text" defaultValue={title} className='p-4 border focus:border-b-indigo-800' placeholder='Topic Title' />
